@@ -1,0 +1,55 @@
+.scroller {
+    --block-gap: 0px;
+    overflow: auto;
+    display: flex;
+    gap: var(--block-gap)
+  }
+  
+  .wrapper {
+    max-width: 300px;
+    margin: 20px;
+  }
+  
+  .blocks {
+    --top-padding: "auto";
+    display: flex;
+    flex-shrink: 0;
+    position: relative;
+    padding: var(--top-padding) 0px 0px 0px;
+    gap: var(--block-gap)
+  }
+  
+  .header {
+    --offset: 0;
+    position: absolute;
+    margin: 0;
+    transform: translate(0, -100%);
+  }
+  
+  .header--fixed {
+    --left-offset: 0px;
+    left: var(--left-offset);
+    position: fixed;
+  }
+  
+  .header--right {
+    right: 0px;
+  }
+  
+  .block1 {
+    background-color: coral;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .block2 {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .block3 {
+    background-color: darkcyan;
+    width: 200px;
+    height: 100px;
+  }
