@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import React from 'react';
-import { Scroll } from './Scroll';
+import { Scroll } from '../dist/index';
+import styles from './Scroll.module.css';
 
-//👇 This default export determines where your story goes in the story list
 const meta: Meta<typeof Scroll> = {
   component: Scroll,
 };
@@ -18,33 +18,33 @@ export const Story: Story = {
         <Scroll.Group>
           <Scroll.Title>Utrhoncus</Scroll.Title>
           <Scroll.Item>
-            <div className='block1'></div>
+            <div className={styles['block1']}></div>
           </Scroll.Item>
         </Scroll.Group>
 
         <Scroll.Group>
           <Scroll.Title>Nam feugiat</Scroll.Title>
           <Scroll.Item>
-            <div className='block2'></div>
+            <div className={styles['block2']}></div>
           </Scroll.Item>
           <Scroll.Item>
-            <div className='block2'></div>
+            <div className={styles['block2']}></div>
           </Scroll.Item>
         </Scroll.Group>
 
         <Scroll.Group>
           <Scroll.Title>Maecenas at purus</Scroll.Title>
           <Scroll.Item>
-            <div className='block3'></div>
+            <div className={styles['block3']}></div>
           </Scroll.Item>
           <Scroll.Item>
-            <div className='block3'></div>
+            <div className={styles['block3']}></div>
           </Scroll.Item>
           <Scroll.Item>
-            <div className='block3'></div>
+            <div className={styles['block3']}></div>
           </Scroll.Item>
           <Scroll.Item>
-            <div className='block3'></div>
+            <div className={styles['block3']}></div>
           </Scroll.Item>
         </Scroll.Group>
       </>
