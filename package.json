@@ -12,6 +12,7 @@
   "author": "TV Ankith",
   "license": "ISC",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "@storybook/addon-essentials": "^7.6.15",
     "@storybook/addon-interactions": "^7.6.15",
     "@storybook/addon-links": "^7.6.15",
@@ -26,6 +27,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup-plugin-terser": "^7.0.2",
+    "semantic-release": "^23.0.2",
     "storybook": "^7.6.15",
     "typescript": "^5.3.3",
     "vite": "^4.5.2",
