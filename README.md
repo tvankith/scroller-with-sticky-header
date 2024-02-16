@@ -61,14 +61,13 @@ export default App
 
 The component accepts the following props:
 
-## Props
-
-The component accepts the following props:
-
 | Prop           | Type      | Default    | Description                          |
 | -------------- | --------- | ---------- | ------------------------------------ |
 | gap            | string    | '10px'     | The gap between each scroll group    |
 
+## Storybook
+
+Explore more example and usage in our Storybook: [Storybook Link](https://main--65cf9b0ccca8d3df5beff2f8.chromatic.com/?path=/story/scroll--story)
 
 ## Contributing
 
