@@ -8,7 +8,9 @@
     "build": "vite build && node scripts/add-css-import.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "watch": "vite & tcm --watch -p '*.module.css' .",
+    "check:up-to-date-types": "tcm --listDifferent ."
   },
   "author": "TV Ankith",
   "license": "ISC",
@@ -49,5 +51,8 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "typed-css-modules": "^0.9.1"
   }
 }
