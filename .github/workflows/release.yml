@@ -34,3 +34,8 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Chromatic deployment
+        uses: chromaui/action@v1
+        with:
+          token: ${{ secrets.CHROMATIC_TOKEN }}
