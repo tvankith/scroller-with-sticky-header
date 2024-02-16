@@ -1,6 +1,7 @@
 {
   "name": "horizondal-scroller-with-sticky-header",
   "version": "1.0.0",
+  "private": true,
   "description": "Horizondal scroller with sticky header",
   "main": "dist/index.js",
   "scripts": {
