@@ -1,1 +1,1 @@
-export { default as Scroll } from './scroller';
+export { default as Scroll } from "./scroller";

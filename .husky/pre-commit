@@ -1,2 +1,2 @@
-npx eslint . --fix
+npm run lint
 git add .
