@@ -2,7 +2,7 @@
 
 This React component provides a scroller with a sticky header, allowing users to scroll through content horizontally while keeping the header fixed at the top of the section. See [Codesandbox example](https://codesandbox.io/p/devbox/horizontal-scroll-with-sticky-header-y8mnpg)
 
-![example](https://github.com/tvankith/scroller-with-sticky-header/assets/22615249/6b42ec76-8853-47a3-81c3-403130525e05)
+![example](https://github.com/tvankith/scroller-with-sticky-header/blob/development/assets/example.gif?raw=true)
 
 ## Installation
 
