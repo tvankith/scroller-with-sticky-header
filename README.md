@@ -1,4 +1,3 @@
----
 
 # Horizontal Scroller with Sticky Header
 

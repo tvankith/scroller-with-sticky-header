@@ -12,7 +12,7 @@
     "watch": "vite & tcm --watch -p '*.module.css' .",
     "check:up-to-date-types": "tcm --listDifferent .",
     "lint": "npx eslint . --fix",
-    "release": "npx semantic-release"
+    "release": "semantic-release"
   },
   "author": "TV Ankith",
   "license": "ISC",
