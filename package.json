@@ -1,6 +1,6 @@
 {
   "name": "scroller-with-sticky-header",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scroller with sticky header",
   "main": "dist/index.js",
   "repository": {
