@@ -1,0 +1,21 @@
+.block1 {
+  background-color: coral;
+  width: 200px;
+  height: 100px;
+}
+
+.block2 {
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 100px;
+}
+
+.block3 {
+  background-color: darkcyan;
+  width: 200px;
+  height: 100px;
+}
+
+.container {
+  max-width: 300px;
+}
