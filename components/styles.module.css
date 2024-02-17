@@ -2,7 +2,7 @@
   --block-gap: 0px;
   overflow: auto;
   display: flex;
-  gap: var(--block-gap)
+  gap: var(--block-gap);
 }
 
 .wrapper {
@@ -16,7 +16,7 @@
   flex-shrink: 0;
   position: relative;
   padding: var(--top-padding) 0px 0px 0px;
-  gap: var(--block-gap)
+  gap: var(--block-gap);
 }
 
 .header {

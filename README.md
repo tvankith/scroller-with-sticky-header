@@ -1,4 +1,3 @@
-
 ---
 
 # Horizontal Scroller with Sticky Header
@@ -24,20 +23,18 @@ yarn add horizontal-scroller-with-sticky-header
 To use the component, import it into your React application and incorporate it as needed:
 
 ```jsx
-import { Scroll } from 'horizondal-scroller-with-sticky-header'
+import { Scroll } from "horizondal-scroller-with-sticky-header";
 
 function App() {
-
   return (
-    <div className='container'>
-      <Scroll gap='10px'>
+    <div className="container">
+      <Scroll gap="10px">
         <Scroll.Group>
           <Scroll.Title>Title 1</Scroll.Title>
           <Scroll.Item>
             <div>...</div>
           </Scroll.Item>
         </Scroll.Group>
-
         <Scroll.Group>
           <Scroll.Title>Title 2</Scroll.Title>
           <Scroll.Item>
@@ -50,20 +47,19 @@ function App() {
         ...
       </Scroll>
     </div>
-  )
+  );
 }
 
-export default App
-
+export default App;
 ```
 
 ## Props
 
 The component accepts the following props:
 
-| Prop           | Type      | Default    | Description                          |
-| -------------- | --------- | ---------- | ------------------------------------ |
-| gap            | string    | '10px'     | The gap between each scroll group    |
+| Prop | Type   | Default | Description                       |
+| ---- | ------ | ------- | --------------------------------- |
+| gap  | string | '10px'  | The gap between each scroll group |
 
 ## Storybook
 

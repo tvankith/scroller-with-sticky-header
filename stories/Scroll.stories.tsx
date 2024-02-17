@@ -1,7 +1,7 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import React from 'react';
-import { Scroll } from '../components/index';
-import './style.css'
+import type { Meta, StoryObj } from "@storybook/react";
+import React from "react";
+import { Scroll } from "../components/index";
+import "./style.css";
 
 const meta: Meta<typeof Scroll> = {
   component: Scroll,
@@ -10,10 +10,10 @@ const meta: Meta<typeof Scroll> = {
 export default meta;
 type Story = StoryObj<typeof Scroll>;
 
-export const Story: Story = {
+export const ScrollExample: Story = {
   args: {
     gap: "10px",
-    className: 'container',
+    className: "container",
     children: (
       <>
         <Scroll.Group>
@@ -50,6 +50,5 @@ export const Story: Story = {
         </Scroll.Group>
       </>
     ),
-    //👇 The args you need here will depend on your component
   },
 };
