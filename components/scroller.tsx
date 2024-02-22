@@ -110,4 +110,8 @@ Scroll.Title = Title;
 
 Scroll.Item = Item;
 
+Scroll.defaultProps = {
+  gap: "10px"
+}
+
 export default Scroll;

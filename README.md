@@ -1,6 +1,6 @@
 # Scroller with Sticky Header
 
-This React component provides a scroller with a sticky header, allowing users to scroll through content horizontally while keeping the header fixed at the top of the section. See [Codesandbox example](https://codesandbox.io/p/devbox/horizontal-scroll-with-sticky-header-y8mnpg)
+This React component provides a scroller with a sticky header, allowing users to scroll through content horizontally while keeping the header fixed at the top of the section. See [Codesandbox example](https://scroller-with-sticky-header-uploads.s3.amazonaws.com/example.gif)
 
 ![Example](./assets/example.gif)
 
@@ -20,7 +20,7 @@ yarn add scroller-with-sticky-header
 
 ## Usage
 
-To use the component, import it into your React application and incorporate it as needed:
+To use the component, import it into your React application and incorporate it as needed, Just look one example
 
 ```jsx
 import { Scroll } from "scroller-with-sticky-header";
@@ -30,21 +30,35 @@ function App() {
     <div className="container">
       <Scroll gap="10px">
         <Scroll.Group>
-          <Scroll.Title>Title 1</Scroll.Title>
+          <Scroll.Title>Utrhoncus</Scroll.Title>
           <Scroll.Item>
-            <div>...</div>
+            <div className="block1"></div>
           </Scroll.Item>
         </Scroll.Group>
         <Scroll.Group>
-          <Scroll.Title>Title 2</Scroll.Title>
+          <Scroll.Title>Nam feugiat</Scroll.Title>
           <Scroll.Item>
-            <div>...</div>
+            <div className="block2"></div>
           </Scroll.Item>
           <Scroll.Item>
-            <div>...</div>
+            <div className="block2"></div>
           </Scroll.Item>
         </Scroll.Group>
-        ...
+        <Scroll.Group>
+          <Scroll.Title>Maecenas at purus</Scroll.Title>
+          <Scroll.Item>
+            <div className="block3"></div>
+          </Scroll.Item>
+          <Scroll.Item>
+            <div className="block3"></div>
+          </Scroll.Item>
+          <Scroll.Item>
+            <div className="block3"></div>
+          </Scroll.Item>
+          <Scroll.Item>
+            <div className="block3"></div>
+          </Scroll.Item>
+        </Scroll.Group>
       </Scroll>
     </div>
   );
@@ -52,6 +66,31 @@ function App() {
 
 export default App;
 ```
+
+```css
+.block1 {
+  background-color: coral;
+  width: 200px;
+  height: 100px;
+}
+
+.block2 {
+  background-color: cornflowerblue;
+  width: 200px;
+  height: 100px;
+}
+
+.block3 {
+  background-color: darkcyan;
+  width: 200px;
+  height: 100px;
+}
+
+.container {
+  max-width: 300px;
+}
+```
+
 
 ## Props
 
