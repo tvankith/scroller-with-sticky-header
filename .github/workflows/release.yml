@@ -32,7 +32,7 @@ jobs:
       - name: Build package
         run: npm run build
 
-     - name: Run Cypress tests
+      - name: Run Cypress tests  
         run: npx cypress run --component
 
       - name: Publish to npm
