@@ -1,5 +1,5 @@
 import React from "react";
-import { Scroll } from "../components";
+import { Scroll } from "../dist";
 
 describe("<Scroll />", () => {
   beforeEach(() => {

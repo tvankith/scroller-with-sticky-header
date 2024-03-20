@@ -32,6 +32,9 @@ jobs:
       - name: Build package
         run: npm run build
 
+      - name: Run Cypress tests
+        run: npx run cypress:run --component
+
       - name: Publish to npm
         run: npm run release
         env:
