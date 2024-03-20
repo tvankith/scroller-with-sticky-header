@@ -7,6 +7,7 @@ const Scroll = (props: {
   children: React.ReactNode;
   gap: string;
   className?: string;
+  ["data-test"]?: string;
 }): React.ReactNode => {
   const scrollerRef = useRef<HTMLDivElement>();
 
@@ -83,18 +84,33 @@ const Scroll = (props: {
       onScroll={onScroll}
       className={`${styles.scroller} ${props.className ?? ""}`}
       ref={scrollerRef as React.LegacyRef<HTMLDivElement>}
+      data-test={props["data-test"]}
     >
       {props.children}
     </div>
   );
 };
 
-const Group = (props: { children: React.ReactNode }): React.ReactNode => {
-  return <div className={styles.blocks}>{props.children}</div>;
+const Group = (props: {
+  children: React.ReactNode;
+  "data-test"?: string;
+}): React.ReactNode => {
+  return (
+    <div className={styles.blocks} data-test={props["data-test"]}>
+      {props.children}
+    </div>
+  );
 };
 
-const Title = (props: { children: React.ReactNode }): React.ReactNode => {
-  return <div className={styles.header}>{props.children}</div>;
+const Title = (props: {
+  children: React.ReactNode;
+  ["data-test"]?: string;
+}): React.ReactNode => {
+  return (
+    <div className={styles.header} data-test={props["data-test"]}>
+      {props.children}
+    </div>
+  );
 };
 
 const Item = (props: {
@@ -111,7 +127,7 @@ Scroll.Title = Title;
 Scroll.Item = Item;
 
 Scroll.defaultProps = {
-  gap: "10px"
-}
+  gap: "10px",
+};
 
 export default Scroll;

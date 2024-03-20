@@ -5,3 +5,5 @@ release.config.cjs
 commitlint.config.js
 package.json
 package-lock.json
+*.json
+*.html
