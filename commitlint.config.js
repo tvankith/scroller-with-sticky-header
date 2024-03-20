@@ -18,6 +18,7 @@ module.exports = {
         "revert",
         "perf",
         "vercel",
+        "build",
       ],
     ],
   },
